@@ -19,6 +19,12 @@
     import { eventBus } from '../main';
 
     export default {
+        props: {
+            messages: {
+                type: Array,
+                required: true
+            }
+        },
         created() {
             eventBus.$on('changeView', (data) => {
                 let temp = [{
