@@ -1,6 +1,10 @@
 <template>
   <div id="app">
-    <Sidebar/>
+      <div class="container">
+          <div class="mail-box">
+                <Sidebar/>
+          </div>
+      </div>
   </div>
 </template>
 
@@ -17,4 +21,6 @@
 
 <style lang="scss">
     @import 'assets/style.css';
+    @import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+    @import '../node_modules/font-awesome/css/font-awesome.min.css';
 </style>

@@ -1,7 +1,7 @@
 <template>
     <aside class="sm-side">
         <div class="user-head">
-            <img src="src/assets/images/profile.jpg">
+            <img src="../assets/profile.jpg">
 
             <div class="user-name">
                 <h5>Bo Andersen</h5>
