@@ -10,8 +10,12 @@
 </template>
 
 <script>
-    // import inbox has a local component
+    // import local components
     import Inbox from './Inbox.vue';
+    import Sent from './Sent.vue';
+    import Important from './Important.vue';
+    import Trash from './Trash.vue';
+    import ViewMessage from './ViewMessage.vue';
 
     export default {
         data() {
@@ -30,7 +34,11 @@
             }
         },
         components: {
-            appInbox: Inbox
+            appInbox: Inbox,
+            appSent: Sent,
+            appImportant: Important,
+            appTrash: Trash,
+            appViewMessage: ViewMessage
         } 
     }
 </script>
