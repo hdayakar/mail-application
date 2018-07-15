@@ -12,8 +12,14 @@
 <script>
     import Sidebar from "./components/Sidebar.vue";
     import Content from "./components/Content.vue";
+    import messages from "./assets/data/messages";
 
     export default {
+        data() {
+            return {
+                messages: messages
+            };
+        },
         name: "app",
         components: {
             appSidebar: Sidebar,
