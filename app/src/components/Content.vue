@@ -16,7 +16,7 @@
     import Important from './Important.vue';
     import Trash from './Trash.vue';
     import ViewMessage from './ViewMessage.vue';
-    import{ eventBus } from '../main';
+    import { eventBus } from '../main';
 
     export default {
         created() {
