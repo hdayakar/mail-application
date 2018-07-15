@@ -2,7 +2,8 @@
   <div id="app">
       <div class="container">
           <div class="mail-box">
-                <Sidebar/>
+                <app-sidebar/>
+                <app-content/>
           </div>
       </div>
   </div>
@@ -10,11 +11,13 @@
 
 <script>
     import Sidebar from "./components/Sidebar.vue";
+    import Content from "./components/Content.vue";
 
     export default {
         name: "app",
         components: {
-            Sidebar
+            appSidebar: Sidebar,
+            appContent: Content
         }
     };
 </script>
